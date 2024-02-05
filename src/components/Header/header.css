@@ -1,0 +1,15 @@
+header {
+  background: #252a31;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

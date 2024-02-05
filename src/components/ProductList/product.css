@@ -1,0 +1,24 @@
+:root {
+  --col-1: rgb(95, 199, 255);
+  --transition: all 0.2s ease-in-out;
+  --border: 1px solid #2f3134;
+}
+
+section {
+  display: flex;
+  gap: 10px;
+}
+
+.product-container {
+  border: var(--border);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.product-container img {
+  width: 300px;
+  aspect-ratio: 1;
+  padding: 10px;
+  border-bottom: var(--border);
+  background: #252930;
+}
